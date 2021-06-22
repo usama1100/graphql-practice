@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer {
@@ -72,11 +73,12 @@
 }
 
 .grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 200px;
   margin-top: 3rem;
 }
 
@@ -120,3 +122,18 @@
     flex-direction: column;
   }
 }
+
+/* .bg{
+  background-image: url(./3411110.png);
+  image-orientation: from-image;
+  height: 10%;
+ padding-top: 500px;
+ 
+} */
+/* @media (max-width: 60px) {
+  .bg {
+    width: 30%;
+   justify-content: center;
+   
+  }
+} */

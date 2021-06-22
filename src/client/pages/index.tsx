@@ -58,8 +58,11 @@ export default function Home(
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+     
+     
+      
       <main className={styles.main}>
+          
         <h1 className={styles.title}>
           Welcome to <a href="#">Project Manager</a>
         </h1>
@@ -78,7 +81,8 @@ export default function Home(
             </div>
           ))}
         </div>
-        <div>
+        
+        <div className={styles.create}>
           <h3>Add New Project</h3>
 
           <form onSubmit={mySubmitHandler}>
@@ -108,6 +112,7 @@ export default function Home(
           
       
       </footer>
+      
     </div>
   );
 
